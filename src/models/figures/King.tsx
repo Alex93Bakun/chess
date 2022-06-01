@@ -18,7 +18,6 @@ export class King extends Figure {
         }
 
         for (let i = -1; i < 2; i++) {
-            console.log('i', this.cell.x + i, this.cell.y);
             for (let j = -1; j < 2; j++) {
                 if (
                     target.x === this.cell.x + i &&
